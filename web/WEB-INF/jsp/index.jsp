@@ -50,10 +50,10 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
-					<div name='Tit' id="gtco-logo"><a href="index.gy">C语言信息化教学系统<em>.</em></a></div>
+					<div name='Tit' id="gtco-logo"><a href="index.gy">智慧教育平台-C语言<em>.</em></a></div>
 				</div>
 				<div class="col-xs-8 text-right menu-1" >
-					<ul>
+<!--					<ul>
 						<li><a href="#">首页</a></li>
 						<li><a href="#">在线考试</a></li>
                                                 <li><a href="#">智能问答</a></li>
@@ -65,12 +65,13 @@
 							</ul>
 						</li>
 						<li><a name='Tit' href="#">联系老师</a></li>
+
 						<li class="has-dropdown"><a href="#"><span>powered by</span></a>
                                                     <ul class="dropdown">
 								<li><a href="#">图片鸣谢：睿思zhusida，扬帆远航...</a></li>
 						    </ul>
                                                 </li>
-					</ul>
+					</ul>-->
 				</div>
 			</div>
 		</div>
@@ -82,19 +83,17 @@
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0 text-left">
 					<div class="row row-mt-15em">
-						<div class="col-md-7  animate-box" data-animate-effect="fadeInUp">
-							<span  class="intro-text-small" style="font-size:30px">欢迎使用C语言信息化教学系统</span>
-                                                        <a href="#" class="intro-text-small" style="font-size:20px">在线考试</a>
-                                                        <a href="#" class="intro-text-small" style="font-size:20px">智能问答</a>
-                                                        <a href="#" class="intro-text-small" style="font-size:20px">我的数据</a>
-                                                        <a href="#" class="intro-text-small" style="font-size:20px">视频学习</a>  
+						<div class="col-md-7  animate-box" data-animate-effect="fadeInUp" >
+                                                    <span  class="intro-text-small" style="font-size:20px;text-align: center">&nbsp;</span>
+							<span  class="intro-text-small" style="font-size:40px;text-align: center">欢迎使用智慧教育平台</span>
+                                                        <span  class="intro-text-small" style="font-size:35px;text-align: center">C语言</span>
 						</div>
 						<div class="col-md-4 col-md-push-1 animate-box" data-animate-effect="fadeInRight">
 							<div class="form-wrap">
                                                             <div class="tab">
                                                                 <div class="tab-content">
                                                                     <div class="tab-content-inner  active" data-content="login" >
-                                                                        <form method="post" action="./login.gy"><!--here  add  api-->
+                                                                        <form method="post" action="./index.gy"><!--here  add  api-->
                                                                                     <div class="row form-group">
                                                                                             <div class="col-md-12">
                                                                                                     <label for="username">学号</label>
