@@ -27,11 +27,21 @@
     <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="mappings">
             <props>
-                <prop key="login.gy">indexController</prop>
+                <prop key="index.gy">indexController</prop>
             </props>
         </property>
     </bean>
     <bean id="indexController" class="MVC.indexController">
+    </bean>
+    
+    <bean id="outMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <props>
+                <prop key="logout.gy">logoutController</prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="logoutController" class="MVC.logoutController">
     </bean>
 
 </beans>

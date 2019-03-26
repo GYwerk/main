@@ -16,7 +16,8 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
 
 public class indexController implements Controller {
-
+    
+    @Override
     public ModelAndView handleRequest(HttpServletRequest arg0,   HttpServletResponse arg1) throws Exception {
         arg0.setCharacterEncoding("UTF-8");
         arg1.setHeader("Content-type","text/html;charset=utf-8");
@@ -25,6 +26,7 @@ public class indexController implements Controller {
         int message = -1;
         ModelAndView mv = new ModelAndView("index");
         User nenUser = new User();
+        arg0.getSession().setMaxInactiveInterval(20*60);
         if(arg0.getSession(false).getAttribute("nenUser")!=null){
             mv = new ModelAndView("admin");
             nenUser = (User)arg0.getSession(false).getAttribute("nenUser");

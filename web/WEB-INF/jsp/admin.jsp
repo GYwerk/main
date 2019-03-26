@@ -26,23 +26,16 @@
             </li>
         </ul>
         <ul class="nav navbar-nav nav-pills right ">
-            <li class="bg-warning ">
-                <a href="#"><span class="glyphicon glyphicon-tasks"></span><span class="badge"></span></a>
-            </li>
-            <li class="bg-success">
-                <a href="#"><span class="glyphicon glyphicon-envelope"></span><span class="badge"></span></a>
-            </li>
-            
             <li class="bg-info dropdown">
                 <a class="dropdown-toggle" href="#" data-toggle="dropdown">
                     <span class="glyphicon glyphicon-user"></span>&nbsp;<span>${nenUser.account}</span><span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right">
-                    <li class="text-center"><a href="#"><span class="text-primary">账号设置</span></a></li>
-                    <li class="text-center"><a href="#"><span class="text-primary">消息设置</span></a></li>
-                    <li class="text-center"><a href="#"><span class="text-primary">帮助中心</span></a></li>
+                    <li class="text-center"><a href="/xdoj/login?user_id=${nenUser.account}&password=${nenUser.password}"><span class="text-primary">账号设置</span></a></li>
+<!--                    <li class="text-center"><a href="#"><span class="text-primary">消息设置</span></a></li>-->
+<!--                    <li class="text-center"><a href="#"><span class="text-primary">帮助中心</span></a></li>-->
                     <li class="divider"><a href="#"></a></li>
-                    <li class="text-center"><a href="login.html"><span class="text-primary">退出</span></a></li>
+                    <li class="text-center"><a href="logout.gy"><span class="text-primary">退出</span></a></li>
                 </ul>
             </li>
         </ul>
@@ -75,7 +68,7 @@
                         <div id="collapseOne" class="panel-collapse collapse " >
                             <ul class="nav nav-list menu-second">  
                                 <li><a href="/xdoj/login?user_id=${nenUser.account}&password=${nenUser.password}" target="iframe"><i class="icon-user"></i> 参加考试</a></li>
-                                <li><a href="p2.html" target="iframe"><i class="icon-edit"></i>错题库</a></li>                         
+<!--                                <li><a href="p2.html" target="iframe"><i class="icon-edit"></i>错题库</a></li>                         -->
                             </ul>
                         </div>
                     </div>
@@ -94,10 +87,10 @@
 
                         <div id="collapseThree" class="panel-collapse collapse">
                             <ul class="nav nav-list menu-second">
-                                <li><a href="#"><i class="icon-user" target="iframe"></i> 子选项1</a></li>
+<!--                                <li><a href="#"><i class="icon-user" target="iframe"></i> 子选项1</a></li>
                                 <li><a href="#"><i class="icon-edit" target="iframe"></i> 子选项2</a></li>
                                 <li><a href="#"><i class="icon-trash" target="iframe"></i> 子选项3</a></li>
-                                <li><a href="#"><i class="icon-list" target="iframe"></i> 子选项4</a></li>
+                                <li><a href="#"><i class="icon-list" target="iframe"></i> 子选项4</a></li>-->
                             </ul>
                         </div>
                     </div>
@@ -111,7 +104,7 @@
                             <ul class="nav nav-list menu-second">
                             	<li><a href="/video/UserServlet?account=${nenUser.account}&password=${nenUser.password}&flag=login" target="iframe" target="iframe"><i class="icon-user"></i>主页</a></li>
                                 <li><a href="" target="iframe" target="iframe"><i class="icon-user"></i>课程搜索</a></li>
-                                <li><a href="" target="iframe" target="iframe"><i class="icon-edit"></i>教师搜索 </a></li>
+                                <li><a href="" target="iframe" target="iframe"><i class="icon-edit"></i>常见问题 </a></li>
                             </ul>
                         </div>
                     </div>
