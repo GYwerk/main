@@ -17,7 +17,7 @@
 
     </style>
 </head>
-<body>
+<body style="overflow:hidden;" scroll="no">
 <header>
     <div id="gylist" class="container-fluid navbar-fixed-top bg-black">
         <ul class="nav navbar-nav  left col-sm-2">
@@ -26,16 +26,11 @@
             </li>
         </ul>
         <ul class="nav navbar-nav col-sm-2" style="padding:0 ">
-                <a  style="color:#fff" class="dropdown-toggle" href="#" data-toggle="dropdown">
+                <a  style="color:#fff" href="/video/UserServlet?account=${nenUser.account}&password=${nenUser.password}&flag=login" target="iframe">
                     <li class="text-white" style="font-size:20px;margin: 10px auto auto 30%">
                     <i class="icon-book icon-large" ></i>视频学习
                     </li>
                 </a>
-                <ul class="dropdown-menu dropdown-menu-right">
-                    <li class="text-center"><a  href="/video/UserServlet?account=${nenUser.account}&password=${nenUser.password}&flag=login" target="iframe" target="iframe"><i class="icon-user"></i>主页</a></li>
-                    <li class="text-center"><a  href="/video/index.jsp" target="iframe" target="iframe"><i class="icon-list"></i>课程搜索</a></li>
-<!--                    <li class="text-center"><a  href="/video/faq.jsp" target="iframe" target="iframe"><i class="icon-edit"></i>常见问题 </a></li>-->
-                </ul>
         </ul>
         <ul class="nav navbar-nav col-sm-2" style="padding:0">
             <a style="color:#fff" href="/xdoj/login?user_id=${nenUser.account}&password=${nenUser.password}" target="iframe">
