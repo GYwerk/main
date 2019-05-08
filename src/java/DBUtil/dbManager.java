@@ -23,7 +23,7 @@ public class dbManager {
     static final String DB_URL = "jdbc:mysql://localhost:3306/xdoj?serverTimezone=UTC&characterEncoding=utf8";
     // MySQL的JDBC URL编写方式：jdbc:mysql://主机名称：连接端口/数据库的名称
     static final String USER = "root";
-    static final String PASS = "mysql@xdlab210";
+    static final String PASS = "***xdoj***";//"mysql@xdlab210";
     static final String DRIVER = "com.mysql.jdbc.Driver";
     private Connection conn = null;
     private ResultSet RES = null;
