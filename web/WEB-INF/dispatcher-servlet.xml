@@ -53,4 +53,14 @@
     </bean>
     <bean id="viewController" class="MVC.viewController">
     </bean>
+    
+    <bean id="ImageMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <props>
+                <prop key="getImage.gy">GetImgeServlet</prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="GetImgeServlet" class="MVC.GetImgeServlet">
+    </bean>
 </beans>

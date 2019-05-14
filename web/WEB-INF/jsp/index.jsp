@@ -32,7 +32,7 @@
                      <input type="submit" class="longinta" value="登录">
                  </form>
                  <!--扫码图标-->
-                 <a href="#" class="sm"></a>
+                 <a href="see.jsp" class="sm"></a>
              </div>
         </div>
     </div>
